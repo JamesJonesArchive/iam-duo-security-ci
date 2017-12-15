@@ -1,0 +1,13 @@
+---
+- hosts: "{{ target_hosts }}"
+  vars_files:
+    - ./vars/main.yml
+  roles:
+    - { role: 'duosecurity', tags: ["deploy"] }
+  tasks:
+    - name: Ensure the fpm gem installed
+      debug:
+        msg: "placeholder"
+      tags:
+        - deploy
+

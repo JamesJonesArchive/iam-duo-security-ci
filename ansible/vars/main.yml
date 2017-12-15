@@ -1,0 +1,8 @@
+---
+certtool:
+  development:
+    key: "ABCD"
+  test:
+    key: "ABCD"
+  production:
+    key: "ABCD"
